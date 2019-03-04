@@ -8,7 +8,9 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 var pnum = 0
 
 function takeANumber(katzDeliLine){
-  
+  pnum += 1 
+  katzDeliLine.push(pnum);
+  return `Welcome! You are number ${pnum} in line`
 }
 
 function nowServing(katzDeliLine){
