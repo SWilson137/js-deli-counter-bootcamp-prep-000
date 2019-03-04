@@ -5,7 +5,9 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 */
 
-function takeANumber(){
+var pnum = 0
+
+function takeANumber(katzDeliLine){
   
 }
 
